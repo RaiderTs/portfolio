@@ -20,7 +20,7 @@ function Contacts() {
       <li className={s.item}>
         <a
           className={s.link}
-          href="https://www.linkedin.com/in/alexander-tsotsko-8b252616a/"
+          href="https://www.linkedin.com/in/aleksandrtsotsko-8b252616a"
         >
           <FaLinkedin size="40" className={s.icon} />
         </a>

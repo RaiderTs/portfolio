@@ -2,17 +2,23 @@ import { AiFillGithub } from 'react-icons/ai';
 import { FiExternalLink } from 'react-icons/fi';
 import propTypes from 'prop-types';
 import s from './Projects.module.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
 
 function Projects({ label, link, preview, info, tech, repo }) {
+  useEffect(() => {
+    Aos.init({ duration: 2000})
+  },[])
   return (
-    <li className={s.item}>
+    <li   data-aos="fade-up" className={s.item}>
       <div className={s.imgContainer}>
         <img className={s.img} src={preview} alt={label} loading="lazy" />
       </div>
       <div className={s.wrapper}>
         <h3 className={s.name}>{label}</h3>
         <p className={s.info}>{info}</p>
-        <ul className={s.tech}>
+        <ul  data-aos="zoom-in" className={s.tech}>
           {tech.map(({ id, name }) => (
             <li className={s.techItem} key={id}>
               {name}

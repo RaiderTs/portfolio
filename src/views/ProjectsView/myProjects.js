@@ -5,6 +5,7 @@ import clockImg from '../../img/myProjects/clock.jpg';
 import imageFinder from '../../img/myProjects/imageFinder.jpg';
 import moviesImg from '../../img/myProjects/movies.jpg';
 import phonebookImg from '../../img/myProjects/phonebook.jpg';
+import proTestImg from '../../img/myProjects/proTestImg.jpg';
 
 export const ownProjects = [
   {
@@ -21,12 +22,12 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-4',
+    id: 'id-2',
     label: 'Timer',
     link: 'https://raiderts.github.io/goit-js-hw-11-timer/',
     repo: 'https://github.com/RaiderTs/goit-js-hw-11-timer',
     preview: clockImg,
-    info: 'Realistic clock with a sound ticking clock.',
+    info: 'Timer to count down to a specified date.',
     tech: [
       { id: 'id-1', name: 'HTML5' },
       { id: 'id-2', name: 'CSS3' },
@@ -34,7 +35,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-5',
+    id: 'id-3',
     label: 'Image Finder',
     link: 'https://raiderts.github.io/goit-js-hw-13-image-finder/',
     repo: 'https://github.com/RaiderTs/goit-js-hw-13-image-finder',
@@ -51,7 +52,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-7',
+    id: 'id-4',
     label: 'Movies',
     link: 'https://rts-movie.netlify.app/',
     repo: 'https://github.com/RaiderTs/goit-react-hw-04-movies',
@@ -69,7 +70,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-8',
+    id: 'id-5',
     label: 'Phonebook',
     link: 'https://rts-phonebook.netlify.app',
     repo: 'https://github.com/RaiderTs/goit-react-hw-08-phonebook',
@@ -93,6 +94,26 @@ export const ownProjects = [
 export const commandProjects = [
   {
     id: 'id-1',
+    label: 'Pro Test',
+    link: 'https://fin-proj-gr7.netlify.app/',
+    repo: 'https://github.com/RaiderTs/goit21-22-final-proj-gr7-frontend',
+    preview: proTestImg,
+    info:
+      'This app will help you find weak points in knowledge for a QA Engineer so that you can strengthen it.',
+    tech: [
+      { id: 'id-1', name: 'HTML5' },
+      { id: 'id-2', name: 'CSS3' },
+      { id: 'id-3', name: 'React.js' },
+      { id: 'id-3', name: 'Axios' },
+      { id: 'id-3', name: 'Styled components' },
+      { id: 'id-3', name: 'Node.js' },
+      { id: 'id-3', name: 'Mongoose' },
+      { id: 'id-3', name: 'Express' },
+      { id: 'id-3', name: 'Swagger' },
+    ],
+  },
+  {
+    id: 'id-2',
     label: 'BarberShop',
     link: 'https://kuysolov.github.io/final_project_group_6/',
     repo: 'https://github.com/RaiderTs/final_project_group_6',
@@ -106,7 +127,7 @@ export const commandProjects = [
     ],
   },
   {
-    id: 'id-2',
+    id: 'id-3',
     label: 'Filmoteka',
     repo: 'https://github.com/RaiderTs/goit-group_14-filmoteka',
     preview: filmotekaImg,
