@@ -1,37 +1,32 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
-import 'aos/dist/aos.css'
-import { motion } from 'framer-motion';
+import 'aos/dist/aos.css';
 import { techSkills } from './techSkills';
 import TechSkills from '../../components/TechSkills';
 import Contacts from '../../components/Contacts';
-import myPhoto from '../../img/photo.jpg';
+import man from '../../img/—Pngtree—a man holding a notebook_4438997.png';
 import PropTypes from 'prop-types';
 import s from './HomeView.module.css';
 
 function HomeView() {
   useEffect(() => {
-    Aos.init({ duration: 2000})
-  },[])
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
-      <motion.img  data-aos="zoom-out"    
-        className={s.photo}
-        src={myPhoto}
-        width="250"
-        alt="Alexander Tsotsko"
-      />
-      <h1  className={s.name}>Alexander Tsotsko</h1>
-      <p className={s.info}>
-        Hi 👋. Almost a year ago, I decided to move into the IT industry and
-        enrolled in the Fullstack web developer course from GoIT. At the moment,
-        the frontend is fully trained. So, I started looking for a job for the
-        position of <b>Frontend Web Developer</b>. I want to be in a good team,
-        where I could improve my skills and use them for interesting tasks. I am
-        a fast learner, responsible, ready for hard tasks.
-      </p>
+      <div className={s.wrapper}>
+        <div className={s.flex}>
+          <p className={s.title}>Hi there!</p>
+          <h1 className={s.info}>
+            / My name's Alexandr and I’m a Front-end Developer!
+          </h1>
+        </div>
+        <div className={s.flex}>
+          <img src={man} alt="icon" width="660" height="565" />
+        </div>
+      </div>
       <h2 className={s.title}>Tech Skills</h2>
-      <ul  data-aos="zoom-in" className={s.list}>
+      <ul data-aos="zoom-in" className={s.list}>
         {techSkills.map(({ id, label, icon }) => (
           <TechSkills key={id} label={label} icon={icon} />
         ))}

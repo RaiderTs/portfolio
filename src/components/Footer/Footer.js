@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className={s.footer}>
       <div className={s.wrapper}>
-        © 2021 | Developed with
+        © 2022 | Developed with
         <motion.div
           animate={{
             scale: [1, 1.5, 1],
@@ -20,7 +20,7 @@ function Footer() {
         >
           <BsHeartFill color="#ff6b08" />
         </motion.div>
-        by GoIT Student - Tsotsko A.
+        by - Tsotsko A.
       </div>
     </footer>
   );

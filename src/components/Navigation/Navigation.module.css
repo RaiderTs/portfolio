@@ -1,12 +1,13 @@
 .nav {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
   min-height: 80px;
 }
 
 .link {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 85px;
   font-weight: 500;
   font-size: 18px;
   color: var(--primaryTextColor);

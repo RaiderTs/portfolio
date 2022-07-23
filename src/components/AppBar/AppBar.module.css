@@ -1,5 +1,14 @@
 .header {
+  padding: 0px 80px;
   border-bottom: 4px solid;
-  border-color: rgb(180, 180, 180)
+  border-color: rgb(180, 180, 180);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
 
+.header-logo {
+  padding-left: 80px;
 }

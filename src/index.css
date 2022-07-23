@@ -56,3 +56,25 @@ label {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e3e3e3;
+  z-index: -1020;
+  position: absolute;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff6a2a;
+  border-radius: 10px;
+}
+
+@supports (scrollbar-color: rgb(139, 32, 32) rgb(31, 31, 107)) {
+  * {
+    scrollbar-color: #ff6a2a transparent;
+    scrollbar-width: thin;
+  }
+}

@@ -7,9 +7,31 @@ import moviesImg from '../../img/myProjects/movies.jpg';
 import phonebookImg from '../../img/myProjects/phonebook.jpg';
 import proTestImg from '../../img/myProjects/proTestImg.jpg';
 
+import stym from '../../img/myProjects/stymConnect.png';
+import mind from '../../img/myProjects/mindrecorder.png';
+
 export const ownProjects = [
   {
     id: 'id-1',
+    label: 'Mindrecorder',
+    link: 'https://app.mindrecorder.io/',
+    repo: 'https://github.com/RaiderTs/mindrecorder',
+    preview: mind,
+    info: 'Screenshot and video messaging service',
+    tech: [
+      { id: 'id-1', name: 'HTML5' },
+      { id: 'id-2', name: 'CSS3' },
+      { id: 'id-3', name: 'React.js' },
+      { id: 'id-4', name: 'Axios' },
+      { id: 'id-5', name: 'Tailwind' },
+      { id: 'id-6', name: 'Next.js' },
+      { id: 'id-7', name: 'Chakra UI' },
+      { id: 'id-8', name: 'RTK Query' },
+      { id: 'id-9', name: 'Redux' },
+    ],
+  },
+  {
+    id: 'id-2',
     label: 'Web Studio',
     link: 'https://raiderts.github.io/goit-markup-hw-08/',
     repo: 'https://github.com/RaiderTs/goit-markup-hw-08',
@@ -22,7 +44,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-2',
+    id: 'id-3',
     label: 'Timer',
     link: 'https://raiderts.github.io/goit-js-hw-11-timer/',
     repo: 'https://github.com/RaiderTs/goit-js-hw-11-timer',
@@ -35,7 +57,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-3',
+    id: 'id-4',
     label: 'Image Finder',
     link: 'https://raiderts.github.io/goit-js-hw-13-image-finder/',
     repo: 'https://github.com/RaiderTs/goit-js-hw-13-image-finder',
@@ -52,7 +74,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-4',
+    id: 'id-5',
     label: 'Movies',
     link: 'https://rts-movie.netlify.app/',
     repo: 'https://github.com/RaiderTs/goit-react-hw-04-movies',
@@ -70,7 +92,7 @@ export const ownProjects = [
     ],
   },
   {
-    id: 'id-5',
+    id: 'id-6',
     label: 'Phonebook',
     link: 'https://rts-phonebook.netlify.app',
     repo: 'https://github.com/RaiderTs/goit-react-hw-08-phonebook',
@@ -94,6 +116,26 @@ export const ownProjects = [
 export const commandProjects = [
   {
     id: 'id-1',
+    label: 'StymConnect',
+    link: 'https://app.stymconnect.com/',
+    repo: 'https://github.com/RaiderTs/stym-connect',
+    preview: stym,
+    info:
+      'StymConnect is a digital asset management platform. Create and provide a secure place for creatives to store and share files, elevating their workflow',
+    tech: [
+      { id: 'id-1', name: 'HTML5' },
+      { id: 'id-2', name: 'CSS3' },
+      { id: 'id-3', name: 'React.js' },
+      { id: 'id-4', name: 'Axios' },
+      { id: 'id-5', name: 'Tailwind' },
+      { id: 'id-6', name: 'Next.js' },
+      { id: 'id-7', name: 'Chakra UI' },
+      { id: 'id-8', name: 'RTK Query' },
+      { id: 'id-9', name: 'Redux' },
+    ],
+  },
+  {
+    id: 'id-2',
     label: 'Pro Test',
     link: 'https://fin-proj-gr7.netlify.app/',
     repo: 'https://github.com/RaiderTs/goit21-22-final-proj-gr7-frontend',
@@ -113,7 +155,7 @@ export const commandProjects = [
     ],
   },
   {
-    id: 'id-2',
+    id: 'id-3',
     label: 'BarberShop',
     link: 'https://kuysolov.github.io/final_project_group_6/',
     repo: 'https://github.com/RaiderTs/final_project_group_6',
@@ -127,7 +169,7 @@ export const commandProjects = [
     ],
   },
   {
-    id: 'id-3',
+    id: 'id-4',
     label: 'Filmoteka',
     repo: 'https://github.com/RaiderTs/goit-group_14-filmoteka',
     preview: filmotekaImg,
